@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-oldpiperhtap-oct2-database-config
+data:
+  VECTORDB_HOST: "test-oldpiperhtap-oct2-database"
+  VECTORDB_PORT: ""
